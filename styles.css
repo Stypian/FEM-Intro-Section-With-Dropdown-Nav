@@ -30,6 +30,7 @@
         justify-content: center;
         background-color: hsl(0, 0%, 98%);
         position: relative;
+        padding-bottom: 4rem;
     }
 
     .intro-sect__inner {
@@ -391,7 +392,7 @@
         padding-left: var(--from-left);
     }
 
-    @media (orientation: landscape) {
+    @media (orientation: landscape) and (max-width: 860px) {
         .intro-sect__main {
             height: auto;
             padding-bottom: 3rem;

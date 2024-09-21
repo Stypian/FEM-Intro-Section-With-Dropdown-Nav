@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <script src="scripts.js"></script>
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <main class="intro-sect__main">
+    <div class="intro-sect__inner">
+      <header class="intro-sect__header">
+        <div class="intro-sect__header-left">
+          <img class="intro-sect__logo" src="images/logo.svg" alt="snap logo">
+          <nav class="intro-sect__main-nav">
+            <span class="intro-sect__nav-link intro-sect__nav-drop">Features <svg class="intro-sect__down-arrow" width="10" height="6" xmlns="http://www.w3.org/2000/svg" alt="open menu"><path class="intro-sect__down-path" stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg><svg class="intro-sect__up-arrow" width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path class="intro-sect__up-path" stroke="#686868" stroke-width="1.5" fill="none" d="m1 5 4-4 4 4"/></svg>
+              <div class="intro-sect__drop-menu intro-sect__drop-menu--left">
+                <div class="intro-sect__feature-wrap">
+                  <img class="intro-sect__drop-icons" src="images/icon-todo.svg" alt="todo icon">
+                  <a class="intro-sect__drop-link" href="#">Todo List</a>
+                </div>
+                <div class="intro-sect__feature-wrap">
+                  <img class="intro-sect__drop-icons" src="images/icon-calendar.svg" alt="calendar icon">
+                  <a class="intro-sect__drop-link" href="#">Calendar</a>
+                </div>
+                <div class="intro-sect__feature-wrap">
+                  <img class="intro-sect__drop-icons" src="images/icon-reminders.svg" alt="reminders icon">
+                  <a class="intro-sect__drop-link" href="#">Reminders</a>
+                </div>
+                <div class="intro-sect__feature-wrap">
+                  <img class="intro-sect__drop-icons" src="images/icon-planning.svg" alt="planning icon">
+                  <a class="intro-sect__drop-link" href="#">Planning</a>
+                </div>
+              </div>
+            </span>
+            <span class="intro-sect__nav-link intro-sect__nav-drop">Company <svg class="intro-sect__down-arrow" width="10" height="6" xmlns="http://www.w3.org/2000/svg" alt="open menu"><path class="intro-sect__down-path" stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg><svg class="intro-sect__up-arrow" width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path class="intro-sect__up-path" stroke="#686868" stroke-width="1.5" fill="none" d="m1 5 4-4 4 4"/></svg>
+              <div class="intro-sect__drop-menu intro-sect__drop-menu--right">
+                <div class="intro-sect__feature-wrap intro-sect__feature-wrap--company">
+                  <a class="intro-sect__drop-link intro-sect__drop-link--company" href="#">History</a>
+                </div>
+                <div class="intro-sect__feature-wrap intro-sect__feature-wrap--company">
+                  <a class="intro-sect__drop-link intro-sect__drop-link--company" href="#">Our Team</a>
+                </div>
+                <div class="intro-sect__feature-wrap intro-sect__feature-wrap--company">
+                  <a class="intro-sect__drop-link intro-sect__drop-link--company" href="#">Blog</a>
+                </div>
+              </div>
+            </span>
+            <a class="intro-sect__nav-link" href="#">Careers</a>
+            <a class="intro-sect__nav-link" href="#">About</a>
+          </nav>
+        </div>
+        <nav class="intro-sect__header-right">
+          <a class="intro-sect__nav-link intro-sect__nav-link--right" href="#">Login</a>
+          <a class="intro-sect__nav-link intro-sect__nav-link--right intro-sect__nav-link--register" href="#">Register</a>
+        </nav>
+      </header>
+      <header class="intro-sect__header-mobile">
+        <img class="intro-sect__logo" src="images/logo.svg" alt="snap logo">
+        <img class="intro-sect__mobile-drop" src="images/icon-menu.svg" alt="open nav menu">
+      </header>
+      <section class="intro-sect__main-section">
+        <div class="intro-sect__main-text">
+          <h1 class="intro-sect__main-heading">Make<br>remote work</h1>
+          <h1 class="intro-sect__main-heading-mobile">Make remote work</h1>
+          <p class="intro-sect__main-paragraph">Get your team in sync, no matter your location. Streamline processes, 
+            create team rituals, and watch productivity soar.</p>
+          <button class="intro-sect__main-button">Learn more</button>
+          <div class="intro-sect__client-wrap">
+            <img class="intro-sect__client-icon" src="images/client-databiz.svg" alt="databiz">
+            <img class="intro-sect__client-icon" src="images/client-audiophile.svg" alt="audiophile">
+            <img class="intro-sect__client-icon" src="images/client-meet.svg" alt="meet">
+            <img class="intro-sect__client-icon" src="images/client-maker.svg" alt="maker">
+          </div>
+        </div>
+        <div class="intro-sect__main-image">
+          <img class="intro-sect__hero-desk" src="images/image-hero-desktop.png" alt="remote work">
+          <img class="intro-sect__hero-mobile" src="images/image-hero-mobile.png" alt="remote work">
+        </div>
+      </section>     
+    </div>
+     <div class="intro-sect__mobile-overlay">
+        <div class="intro-sect__mobile-menu">
+          <div class="intro-sect__mobile-top">
+            <img class="intro-sect__mobile-close" src="images/icon-close-menu.svg">
+          </div>
+          <div class="intro-sect__mobile-main">
+            <div class="intro-sect__mobile-drop-wrap">
+              <p class="intro-sect__mobile-link">Features</p>
+              <svg class="intro-sect__down-arrow-mobile" id="down-arrow" width="10" height="6" xmlns="http://www.w3.org/2000/svg" alt="open menu"><path class="intro-sect__down-path" stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg><svg class="intro-sect__up-arrow-mobile" width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path class="intro-sect__up-path" stroke="#686868" stroke-width="1.5" fill="none" d="m1 5 4-4 4 4"/></svg>
+            </div>
+            <div class="intro-sect__mobile-link-drop">
+              <div class="intro-sect__mobile-icon-wrap"><img class="intro-sect__mobile-icon" src="images/icon-todo.svg" alt="todo icon"><a class="intro-sect__mobile-link intro-sect__mobile-link--anchor" href="#">Todo List</a></div>
+              <div class="intro-sect__mobile-icon-wrap"><img class="intro-sect__mobile-icon" src="images/icon-calendar.svg" alt="calendar icon"><a class="intro-sect__mobile-link intro-sect__mobile-link--anchor" href="#">Calendar</a></div>
+              <div class="intro-sect__mobile-icon-wrap"><img class="intro-sect__mobile-icon" src="images/icon-reminders.svg" alt="reminders icon"><a class="intro-sect__mobile-link intro-sect__mobile-link--anchor" href="#">Reminders</a></div>
+              <div class="intro-sect__mobile-icon-wrap"><img class="intro-sect__mobile-icon" src="images/icon-planning.svg" alt="planning icon"><a class="intro-sect__mobile-link intro-sect__mobile-link--anchor" href="#">Planning</a></div>
+            </div>
+            <div class="intro-sect__mobile-drop-wrap">
+            <p class="intro-sect__mobile-link">Company</p>
+            <svg class="intro-sect__down-arrow-mobile" width="10" height="6" xmlns="http://www.w3.org/2000/svg" alt="open menu"><path class="intro-sect__down-path" stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg><svg class="intro-sect__up-arrow-mobile" width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path class="intro-sect__up-path" stroke="#686868" stroke-width="1.5" fill="none" d="m1 5 4-4 4 4"/></svg>
+            </div>
+            <div class="intro-sect__mobile-link-drop">
+              <div class="intro-sect__mobile-icon-wrap"><a class="intro-sect__mobile-link intro-sect__mobile-link--anchor" href="#">History</a></div>
+              <div class="intro-sect__mobile-icon-wrap"><a class="intro-sect__mobile-link intro-sect__mobile-link--anchor" href="#">Our Team</a></div>
+              <div class="intro-sect__mobile-icon-wrap"><a class="intro-sect__mobile-link intro-sect__mobile-link--anchor" href="#">Blog</a></div>
+            </div>
+            <a class="intro-sect__mobile-link intro-sect__mobile-link--last2" href="#">Careers</a>
+            <a class="intro-sect__mobile-link intro-sect__mobile-link--last2" href="#">About</a>
+            <div class="intro-sect__mobile-login-wrap">
+              <a class="intro-sect__mobile-login-anchor" href="#">Login</a>
+              <button class="intro-sect__register-button">Register</button>
+            </div>
+          </div>
+        </div>
+      </div>
+ </main>
+
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">RonL</a>.
+  </div>
+</body>
+</html>
